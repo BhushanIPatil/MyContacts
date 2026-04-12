@@ -5,7 +5,6 @@ export function ShopPage() {
   return (
     <section className="products-section">
       <div className="section-inner" style={{ paddingTop: '48px' }}>
-        <span className="section-tag reveal">{productsData.meta.tag}</span>
         <h1 className="section-title reveal">{productsData.meta.title}</h1>
         <p className="section-desc reveal">{productsData.meta.description}</p>
 

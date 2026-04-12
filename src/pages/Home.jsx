@@ -160,9 +160,6 @@ export function Home() {
 
       <section id="quiz" className="quiz-section">
         <div className="section-inner">
-          <span className="section-tag" style={{ color: 'var(--saffron-light)' }}>
-            {homeData.quizTeaser.tag}
-          </span>
           <h2 className="section-title reveal" style={{ color: 'white' }}>
             {homeData.quizTeaser.title}
           </h2>

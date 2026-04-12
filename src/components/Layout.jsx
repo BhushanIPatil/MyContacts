@@ -1,11 +1,25 @@
 import { useEffect, useState, useCallback } from 'react'
-import { Link, Outlet, useLocation } from 'react-router-dom'
+import { NavLink, Link, Outlet, useLocation } from 'react-router-dom'
+import siteLogo from '../logo/CivicSense_logo.png'
+
+const PAGE_TITLES = {
+  '/': 'Civic Awareness & Smart Living Guide',
+  '/laws': 'Civic Awareness',
+  '/tips': 'Civic Tips',
+  '/quiz': 'Quiz',
+  '/shop': 'Shop',
+  '/about': 'About',
+}
 
 export function Layout() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [nlEmail, setNlEmail] = useState('')
   const [nlMsg, setNlMsg] = useState({ text: '', color: '' })
   const location = useLocation()
+
+  useEffect(() => {
+    document.title = PAGE_TITLES[location.pathname] ?? PAGE_TITLES['/']
+  }, [location.pathname])
 
   useEffect(() => {
     const reveals = document.querySelectorAll('.reveal')
@@ -40,38 +54,48 @@ export function Layout() {
     <>
       <nav>
         <Link to="/" className="nav-logo" onClick={closeMenu}>
-          Civic<span>Sense</span> 🇮🇳
+          <img src={siteLogo} alt="CivicSense India" className="nav-logo-img" width="180" height="48" decoding="async" />
+          Civic<span>Sense</span>
         </Link>
         <ul className={`nav-links${menuOpen ? ' nav-open' : ''}`}>
           <li>
-            <Link to="/laws" onClick={closeMenu}>
-              Funny Laws
-            </Link>
+            <NavLink to="/laws" onClick={closeMenu}
+              className={({ isActive }) => isActive ? 'active' : ''}>
+              Civic Awareness
+            </NavLink>
           </li>
           <li>
-            <Link to="/tips" onClick={closeMenu}>
+            <NavLink to="/tips" onClick={closeMenu}
+              className={({ isActive }) => isActive ? 'active' : ''}>
               Civic Tips
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/quiz" onClick={closeMenu}>
+            <NavLink to="/quiz" onClick={closeMenu}
+              className={({ isActive }) => isActive ? 'active' : ''}>
               Quiz
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/shop" onClick={closeMenu}>
+            <NavLink to="/shop" onClick={closeMenu}
+              className={({ isActive }) => isActive ? 'active' : ''}>
               Shop
-            </Link>
+              </NavLink>
           </li>
           <li>
-            <Link to="/about" onClick={closeMenu}>
+            <NavLink to="/about" onClick={closeMenu}
+              className={({ isActive }) => isActive ? 'active' : ''}>
               About
-            </Link>
+            </NavLink>
           </li>
         </ul>
-        <Link to="/quiz" className="nav-cta" onClick={closeMenu}>
+        <NavLink
+          to="/quiz"
+          onClick={closeMenu}
+          className={({ isActive }) => `nav-cta ${isActive ? 'active' : ''}`}
+        >
           Take the Quiz
-        </Link>
+        </NavLink>
         <div
           className="hamburger"
           onClick={toggleMenu}
@@ -116,8 +140,8 @@ export function Layout() {
       <footer>
         <div className="footer-grid">
           <div className="footer-brand">
-            <Link to="/" className="nav-logo" style={{ color: 'var(--saffron)' }}>
-              Civic<span style={{ color: 'var(--green)' }}>Sense</span> 🇮🇳
+            <Link to="/" className="nav-logo footer-logo-link" onClick={closeMenu}>
+              <img src={siteLogo} alt="CivicSense India" className="nav-logo-img footer-logo-img" width="160" height="42" decoding="async" />
             </Link>
             <p className="footer-desc">India&apos;s most entertaining civic awareness platform. Know your laws, own your streets, and be the change this country needs.</p>
             <div className="footer-social">
@@ -142,13 +166,13 @@ export function Layout() {
             <h4>Explore</h4>
             <ul>
               <li>
-                <Link to="/laws">Funny Laws</Link>
+                <Link to="/laws">Civic Awareness</Link>
               </li>
               <li>
                 <Link to="/tips">Civic Tips</Link>
               </li>
               <li>
-                <Link to="/quiz">Civic IQ Quiz</Link>
+                <Link to="/quiz">Quiz</Link>
               </li>
               <li>
                 <Link to="/about">About</Link>
@@ -200,7 +224,7 @@ export function Layout() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2024 CivicSense India. Made with 🧡 for Bharat.</p>
+          <p>© 2026 CivicSense India. Made with 🧡 for Bharat.</p>
           <div className="legal">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Use</a>
@@ -209,7 +233,7 @@ export function Layout() {
           </div>
         </div>
         <div className="disclaimer">
-          <strong>Disclaimer:</strong> CivicSense is an entertainment and awareness website. All laws mentioned are for informational and entertainment purposes only and should not be construed as legal advice. Laws may have been amended or vary by state/jurisdiction. Always consult a qualified legal professional for actual legal matters. Affiliate links on this site earn us a small commission. This does not affect our editorial independence.
+          <strong>Disclaimer:</strong> CivicSense is an informational and awareness website focused on everyday civic habits and responsible living. The content provided is for general educational purposes only and should not be considered professional, legal, or official advice. While we aim to share helpful and accurate information, practices and guidelines may vary by location. Always use your own judgment and consult relevant authorities when necessary. Some links on this site may be affiliate links, which means we may earn a small commission at no additional cost to you. This does not affect our editorial independence.
         </div>
       </footer>
     </>

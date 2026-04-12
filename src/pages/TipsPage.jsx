@@ -5,9 +5,6 @@ export function TipsPage() {
   return (
     <section className="tips-section">
       <div className="section-inner" style={{ paddingTop: '48px' }}>
-        <span className="section-tag" style={{ color: 'var(--saffron-light)' }}>
-          {tipsData.meta.tag}
-        </span>
         <h1 className="section-title reveal">{tipsData.meta.title}</h1>
         <p className="section-desc reveal">{tipsData.meta.description}</p>
 

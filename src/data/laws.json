@@ -1,99 +1,99 @@
 {
   "meta": {
-    "tag": "⚖️ Entertainment Zone",
-    "title": "India's Most Hilarious & Surprising Laws",
-    "descriptionHtml": "These are <strong>100% real laws</strong> — just presented entertainingly. Disclaimer: CivicSense is for awareness &amp; entertainment only, not legal advice."
+    "tag": "🌍 Civic Awareness Zone",
+    "title": "Civic Awareness",
+    "descriptionHtml": "Practical tips and everyday insights to help you become a more responsible and aware citizen. Disclaimer: CivicSense is for awareness and educational purposes only and does not provide legal advice."
   },
   "items": [
     {
       "variant": "orange",
       "emoji": "🚶",
-      "tag": "Delhi | Streets",
+      "tag": "Streets | Walking",
       "tagGreen": false,
-      "title": "Walking on the Wrong Side of the Road",
-      "description": "Under the Motor Vehicles Act, pedestrians must walk on the right side of the road (facing traffic). Walking on the left can technically land you a fine.",
-      "funny": "😂 Half of Delhi would be in jail if this was enforced.",
-      "source": "📘 Motor Vehicles Act, 1988"
+      "title": "Walk Facing Traffic for Better Safety",
+      "description": "When walking on roads without footpaths, it’s safer to walk facing oncoming traffic so you can react quickly and stay visible.",
+      "funny": "👀 Staying alert can save you from unexpected situations.",
+      "source": "📘 Road Safety Guidelines"
     },
     {
       "variant": "green",
       "emoji": "🤧",
-      "tag": "Public Health | Spitting",
+      "tag": "Public Health | Hygiene",
       "tagGreen": true,
-      "title": "Spitting in Public is ILLEGAL",
-      "description": "The Prevention of Spitting Act exists in many states. Spitting on streets, buses, railway platforms can invite fines up to ₹200–₹500 depending on the city.",
-      "funny": "😅 But Paan-wallahs seem to be unaware of this law.",
-      "source": "📘 Municipal Acts, Various States"
+      "title": "Avoid Spitting in Public Spaces",
+      "description": "Spitting in public spreads germs and creates unhygienic conditions. Keeping surroundings clean helps prevent diseases and improves community health.",
+      "funny": "😅 Clean habits make a big difference in shared spaces.",
+      "source": "📘 Public Health Awareness"
     },
     {
       "variant": "navy",
       "emoji": "🔊",
-      "tag": "Noise | Neighbourhoods",
+      "tag": "Noise | Communities",
       "tagGreen": false,
-      "title": "Honking Near Hospitals is Illegal",
-      "description": "Section 294 IPC prohibits acts that cause public annoyance. Honking near hospitals, schools and courts can result in fines under pollution control norms.",
-      "funny": "🤣 Indian roads didn't get this memo apparently.",
-      "source": "📘 IPC Section 294 + CPCB Norms"
+      "title": "Minimise Unnecessary Honking",
+      "description": "Excessive honking creates noise pollution and disturbs people, especially near hospitals, schools, and residential areas.",
+      "funny": "🤫 A little patience makes roads calmer for everyone.",
+      "source": "📘 Noise Pollution Awareness"
     },
     {
       "variant": "orange",
       "emoji": "🌳",
-      "tag": "Environment | Trees",
+      "tag": "Environment | Nature",
       "tagGreen": false,
-      "title": "Cutting a Tree Without Permission = Crime",
-      "description": "Under the Indian Forest Act and Tree Preservation Acts of various cities, cutting even a single tree without municipal approval can invite heavy fines or imprisonment.",
-      "funny": "🌿 Your neighbour who cut that neem tree owes everyone an apology.",
-      "source": "📘 Indian Forest Act, 1927"
+      "title": "Protect Trees and Green Spaces",
+      "description": "Trees improve air quality and provide shade. Protecting and planting trees helps build a healthier and more sustainable environment.",
+      "funny": "🌱 One tree today can make a cooler tomorrow.",
+      "source": "📘 Environmental Awareness"
     },
     {
       "variant": "green",
       "emoji": "🗑️",
-      "tag": "Cleanliness | SBM",
+      "tag": "Cleanliness | Habits",
       "tagGreen": true,
-      "title": "Littering in Public Carries Fines",
-      "description": "Swachh Bharat Mission empowers municipalities to fine individuals ₹500–₹5,000 for throwing garbage, food wrappers, or any waste on streets and public spaces.",
-      "funny": "😬 That biscuit wrapper you threw? That's ₹500 going down the drain.",
-      "source": "📘 Swachh Bharat Mission Guidelines"
+      "title": "Avoid Littering in Public Places",
+      "description": "Dispose of waste properly in bins to keep streets, parks, and public spaces clean and hygienic for everyone.",
+      "funny": "😬 Small habits create cleaner cities.",
+      "source": "📘 Cleanliness Awareness"
     },
     {
       "variant": "navy",
       "emoji": "🚬",
-      "tag": "COTPA | Smoking",
+      "tag": "Health | Public Spaces",
       "tagGreen": false,
-      "title": "Smoking in Public Places – ₹200 Fine",
-      "description": "COTPA 2003 prohibits smoking in public places including offices, restaurants, bus stops, educational institutions, healthcare facilities and more.",
-      "funny": "🚭 Even a bus stop counts as a public place under this law!",
-      "source": "📘 COTPA 2003, Section 4"
+      "title": "Be Mindful While Smoking in Public",
+      "description": "Smoking in shared spaces affects others through second-hand smoke. Being considerate helps maintain healthier environments.",
+      "funny": "🚭 Respecting others’ space is always a good habit.",
+      "source": "📘 Public Health Awareness"
     },
     {
       "variant": "orange",
       "emoji": "💡",
-      "tag": "Electricity | Waste",
+      "tag": "Energy | Conservation",
       "tagGreen": false,
-      "title": "Wasting Electricity Can Be Penalised",
-      "description": "Energy Conservation Act 2001 allows authorities to penalise excessive energy wastage in commercial premises. Many state electricity boards have their own rules too.",
-      "funny": "💡 That tubelight you leave on 24x7 is technically a civic crime.",
-      "source": "📘 Energy Conservation Act, 2001"
+      "title": "Avoid Wasting Electricity",
+      "description": "Switch off lights and appliances when not in use to save energy and reduce environmental impact.",
+      "funny": "💡 Saving energy today helps the planet tomorrow.",
+      "source": "📘 Energy Conservation Awareness"
     },
     {
       "variant": "green",
       "emoji": "🐄",
-      "tag": "Animals | Stray",
+      "tag": "Animals | Care",
       "tagGreen": true,
-      "title": "Abandoning Your Pet on the Street is Illegal",
-      "description": "Under the Prevention of Cruelty to Animals Act, abandoning a domestic animal on streets can invite fines and even imprisonment up to 3 months.",
-      "funny": "🐕 That abandoned dog on your street deserves justice!",
-      "source": "📘 PCA Act, 1960"
+      "title": "Take Responsibility for Animals",
+      "description": "Caring for animals responsibly and avoiding abandonment ensures safer communities and better welfare for all living beings.",
+      "funny": "🐾 Kindness towards animals reflects true civic sense.",
+      "source": "📘 Animal Welfare Awareness"
     },
     {
       "variant": "navy",
       "emoji": "🚗",
       "tag": "Traffic | Parking",
       "tagGreen": false,
-      "title": "Wrong Side Parking Blocks Ambulances — and it's Illegal",
-      "description": "Blocking fire hydrants, emergency lanes, or parking in no-parking zones invites heavy fines. In case of emergency, vehicles can be towed at owner's expense.",
-      "funny": "🚑 Your 5-minute parking may cost someone their life (and you ₹2000).",
-      "source": "📘 MVA 1988 + City Traffic Rules"
+      "title": "Park Responsibly Without Blocking Others",
+      "description": "Proper parking ensures smooth traffic flow and prevents inconvenience or delays during emergencies.",
+      "funny": "🚑 Smart parking helps everyone move faster.",
+      "source": "📘 Traffic Awareness"
     }
   ]
 }

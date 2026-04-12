@@ -8,7 +8,6 @@ export function LawsPage() {
     <section>
       <div className="section-inner" style={{ paddingTop: '48px' }}>
         <div className="reveal">
-          <span className="section-tag">{lawsData.meta.tag}</span>
           <h1 className="section-title">{lawsData.meta.title}</h1>
           <p className="section-desc" dangerouslySetInnerHTML={{ __html: lawsData.meta.descriptionHtml }} />
         </div>

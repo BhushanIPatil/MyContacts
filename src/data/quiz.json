@@ -1,62 +1,102 @@
 {
   "meta": {
     "tag": "🧠 Test Yourself",
-    "title": "Civic IQ Quiz",
-    "description": "How much do you really know about India's civic rules?"
+    "title": "Quiz",
+    "description": "How much do you know about everyday civic awareness and responsible living?"
   },
   "questions": [
     {
-      "q": "Under which act is spitting in public spaces illegal in India?",
-      "opts": ["IPC Section 420", "Municipal Corporation Acts", "Indian Penal Code Section 1", "COTPA 2003"],
+      "q": "What is the best habit while walking on roads without footpaths?",
+      "opts": [
+        "Walk with traffic",
+        "Walk facing traffic",
+        "Walk in the middle of the road",
+        "Use mobile while walking"
+      ],
       "ans": 1,
-      "exp": "Most Indian cities have Municipal Corporation Acts that prohibit spitting in public places."
+      "exp": "Walking facing traffic helps you stay aware of oncoming vehicles and react quickly."
     },
     {
-      "q": "What is the fine for not wearing a helmet while riding a two-wheeler in India?",
-      "opts": ["₹100", "₹500", "₹1000", "₹200"],
-      "ans": 2,
-      "exp": "Under the Motor Vehicles (Amendment) Act 2019, the fine for not wearing a helmet is ₹1000."
-    },
-    {
-      "q": "Which Article of the Indian Constitution makes protecting the environment a Fundamental Duty?",
-      "opts": ["Article 21", "Article 48A", "Article 51A(g)", "Article 32"],
-      "ans": 2,
-      "exp": "Article 51A(g) says it is the duty of every citizen to protect and improve the natural environment."
-    },
-    {
-      "q": "RTI stands for?",
-      "opts": ["Right to Income", "Right to Information", "Regulation of Trade & Industry", "Right to Infrastructure"],
+      "q": "Why should you avoid littering in public places?",
+      "opts": [
+        "It looks bad only",
+        "It increases cleaning costs and pollution",
+        "It has no impact",
+        "Only affects animals"
+      ],
       "ans": 1,
-      "exp": "RTI stands for Right to Information Act, 2005 — a powerful tool for every Indian citizen."
+      "exp": "Littering harms the environment, increases pollution, and makes public spaces unhealthy."
     },
     {
-      "q": "Under which law is honking near a hospital prohibited?",
-      "opts": ["CPCB Noise Rules + IPC 294", "Motor Vehicles Act only", "Pollution Control Act 1988", "Traffic Signal Act"],
+      "q": "What is a good way to reduce noise pollution?",
+      "opts": [
+        "Use horn frequently",
+        "Play loud music outdoors",
+        "Avoid unnecessary honking",
+        "Ignore surroundings"
+      ],
+      "ans": 2,
+      "exp": "Avoiding unnecessary honking helps reduce noise pollution and keeps communities peaceful."
+    },
+    {
+      "q": "What is the best practice for saving electricity?",
+      "opts": [
+        "Keep lights on always",
+        "Use maximum brightness devices",
+        "Switch off appliances when not in use",
+        "Ignore energy usage"
+      ],
+      "ans": 2,
+      "exp": "Switching off unused appliances saves energy and reduces environmental impact."
+    },
+    {
+      "q": "Why is spitting in public a bad habit?",
+      "opts": [
+        "It spreads diseases",
+        "It has no effect",
+        "It is only dirty visually",
+        "It is normal behavior"
+      ],
       "ans": 0,
-      "exp": "CPCB Noise Pollution Rules 2000 and IPC Section 294 together cover public nuisance including unnecessary honking."
+      "exp": "Spitting can spread germs and create unhygienic conditions in shared spaces."
     },
     {
-      "q": "The Swachh Bharat Mission was launched in which year?",
-      "opts": ["2012", "2014", "2016", "2010"],
-      "ans": 1,
-      "exp": "Swachh Bharat Mission was launched on 2nd October 2014, on Mahatma Gandhi's 145th birth anniversary."
-    },
-    {
-      "q": "Which fine applies for smoking in a public place under COTPA 2003?",
-      "opts": ["₹50", "₹100", "₹200", "₹1000"],
+      "q": "What is responsible parking?",
+      "opts": [
+        "Parking anywhere quickly",
+        "Blocking other vehicles",
+        "Parking without causing obstruction",
+        "Parking on sidewalks"
+      ],
       "ans": 2,
-      "exp": "Section 4 of COTPA 2003 imposes a fine of ₹200 for smoking in any public place."
+      "exp": "Responsible parking ensures smooth traffic flow and avoids inconvenience to others."
     },
     {
-      "q": "What does the Energy Conservation Act 2001 aim to do?",
-      "opts": ["Nationalise energy companies", "Penalise energy wastage & promote efficiency", "Ban fossil fuels", "Regulate electricity tariffs"],
+      "q": "How can you contribute to a cleaner environment?",
+      "opts": [
+        "Throw waste anywhere",
+        "Use public bins and reduce waste",
+        "Ignore cleanliness",
+        "Burn waste openly"
+      ],
       "ans": 1,
-      "exp": "The Energy Conservation Act 2001 establishes BEE and empowers it to enforce energy efficiency standards."
+      "exp": "Proper waste disposal and reducing waste help maintain clean and healthy surroundings."
+    },
+    {
+      "q": "What is a good civic habit regarding animals?",
+      "opts": [
+        "Ignore them",
+        "Be kind and responsible",
+        "Disturb them",
+        "Leave pets on streets"
+      ],
+      "ans": 1,
+      "exp": "Being kind and responsible towards animals reflects strong civic awareness."
     }
   ],
   "grades": [
     { "minCorrect": 7, "label": "🏆 Civic Champion!" },
-    { "minCorrect": 5, "label": "🌟 Good Citizen!" },
+    { "minCorrect": 5, "label": "🌟 Responsible Citizen!" },
     { "minCorrect": 3, "label": "📚 Keep Learning!" },
     { "minCorrect": 0, "label": "🌱 Just Getting Started!" }
   ]

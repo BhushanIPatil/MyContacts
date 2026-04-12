@@ -1,39 +1,39 @@
 {
   "meta": {
-    "tag": "🔥 Share & Spread",
-    "title": "Civic Sense is Going Viral — Join the Movement",
-    "description": "Share these facts and be a part of India's civic awakening on social media."
+    "tag": "🌍 Share & Spread",
+    "title": "About",
+    "description": "Share these ideas and help build better civic habits and responsible communities everywhere."
   },
   "cards": [
     {
       "variant": "v1",
       "icon": "🤝",
       "title": "Civic Sense = Respect",
-      "text": "Civic sense isn't about rules — it's about respecting your fellow citizens' right to clean, safe and peaceful shared spaces.",
+      "text": "Civic sense isn't about rules — it's about respecting others and keeping shared spaces clean, safe, and peaceful.",
       "shareLabel": "🐦 Tweet This",
-      "shareUrl": "https://twitter.com/intent/tweet?text=Civic+Sense+is+Respect+🇮🇳+%23CivicSenseIndia+%23SwachhBharat&url=https://civicsense.com"
+      "shareUrl": "https://twitter.com/intent/tweet?text=Civic+Sense+is+Respect+%23CivicAwareness+%23BetterLiving&url=https://civicsense.com"
     },
     {
       "variant": "v2",
       "icon": "🌿",
-      "title": "Green India Challenge",
-      "text": "Plant one tree, adopt one park, clean one street. If 1 crore Indians take one civic action this month, India transforms overnight.",
+      "title": "Small Actions Matter",
+      "text": "Plant a tree, reduce waste, keep your surroundings clean. Small everyday actions can create a big positive impact over time.",
       "shareLabel": "📸 Share on Instagram",
       "shareUrl": "https://www.instagram.com/"
     },
     {
       "variant": "v3",
       "icon": "📖",
-      "title": "Know Your Rights",
-      "text": "RTI, consumer rights, right to clean air — every Indian has powerful legal tools. The problem is most don't know they exist.",
+      "title": "Awareness Creates Change",
+      "text": "Understanding everyday civic habits helps build stronger, healthier, and more responsible communities.",
       "shareLabel": "💬 Share on WhatsApp",
-      "shareUrl": "https://wa.me/?text=Did+you+know+you+have+the+Right+to+Information+in+India%3F+Read+more+at+civicsense.com+🇮🇳"
+      "shareUrl": "https://wa.me/?text=Simple+civic+habits+can+create+better+communities.+Learn+more+at+civicsense.com"
     },
     {
       "variant": "v4",
       "icon": "📊",
-      "title": "The Statistics Are Alarming",
-      "text": "India loses ₹3 lakh crore annually to preventable causes — poor roads, pollution, and civic negligence. Civic sense is an economic issue.",
+      "title": "Every Habit Counts",
+      "text": "Cleaner streets, less pollution, and safer environments start with simple choices we make every day.",
       "shareLabel": "💼 Share on LinkedIn",
       "shareUrl": "https://www.linkedin.com/"
     }

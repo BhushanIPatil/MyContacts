@@ -6,9 +6,6 @@ export function QuizPage() {
   return (
     <section className="quiz-section">
       <div className="section-inner" style={{ paddingTop: '48px' }}>
-        <span className="section-tag" style={{ color: 'var(--saffron-light)' }}>
-          {quizData.meta.tag}
-        </span>
         <h1 className="section-title reveal" style={{ color: 'white' }}>
           {quizData.meta.title}
         </h1>

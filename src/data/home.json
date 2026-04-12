@@ -1,15 +1,15 @@
 {
   "hero": {
-    "badge": "Trending in India 🔥",
-    "titleHtml": "India की <span class=\"accent\">अजीब</span> Laws &<br /><span class=\"green\">Civic Sense</span> की बातें",
-    "subtitle": "Did you know spitting on a public street is illegal in most Indian cities? Discover hilarious, shocking, and surprisingly real laws that every Indian should know — but probably doesn't.",
+    "badge": "🌍 Civic Awareness",
+    "titleHtml": "Civic <span class=\"accent\">Awareness</span> &<br /><span class=\"green\">Smart Living</span> Guide",
+    "subtitle": "Simple, practical tips and everyday insights to help you build better habits, respect shared spaces, and become a more responsible citizen — wherever you are.",
     "stats": [
-      { "num": "50+", "label": "Weird Laws" },
-      { "num": "1.4B", "label": "Indians Affected" },
+      { "num": "50+", "label": "Civic Tips" },
+      { "num": "Daily", "label": "Useful Habits" },
       { "num": "100%", "label": "Free to Read" },
-      { "num": "📈 Viral", "label": "On Social Media" }
+      { "num": "🌍 Global", "label": "For Everyone" }
     ],
-    "primaryCta": { "label": "🤣 Explore Funny Laws", "to": "/laws" },
+    "primaryCta": { "label": "🌱 Explore Civic Awareness", "to": "/laws" },
     "secondaryCta": { "label": "🧠 Civic Tips", "to": "/tips" }
   },
   "previews": {
@@ -20,10 +20,9 @@
     "didYouKnow": 3
   },
   "quizTeaser": {
-    "tag": "🧠 Test Yourself",
-    "title": "Civic IQ Quiz",
-    "description": "How much do you really know about India's civic rules?",
-    "body": "Take the full Civic IQ Quiz on a dedicated page — 8 questions, instant feedback, and a score you can share with friends.",
+    "title": "Quiz",
+    "description": "How much do you know about everyday civic awareness and responsible living?",
+    "body": "Take the full quiz — test your knowledge, learn better habits, and see how you score as a responsible citizen.",
     "exploreLabel": "Explore more →",
     "exploreTo": "/quiz"
   },

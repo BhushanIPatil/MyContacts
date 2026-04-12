@@ -5,7 +5,6 @@ export function AboutPage() {
   return (
     <section className="viral-section">
       <div className="section-inner" style={{ paddingTop: '48px' }}>
-        <span className="section-tag reveal">{aboutData.meta.tag}</span>
         <h1 className="section-title reveal">{aboutData.meta.title}</h1>
         <p className="section-desc reveal">{aboutData.meta.description}</p>
         <div className="viral-grid reveal">
