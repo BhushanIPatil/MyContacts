@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "tag": "🧠 Test Yourself",
+    "title": "Civic IQ Quiz",
+    "description": "How much do you really know about India's civic rules?"
+  },
+  "questions": [
+    {
+      "q": "Under which act is spitting in public spaces illegal in India?",
+      "opts": ["IPC Section 420", "Municipal Corporation Acts", "Indian Penal Code Section 1", "COTPA 2003"],
+      "ans": 1,
+      "exp": "Most Indian cities have Municipal Corporation Acts that prohibit spitting in public places."
+    },
+    {
+      "q": "What is the fine for not wearing a helmet while riding a two-wheeler in India?",
+      "opts": ["₹100", "₹500", "₹1000", "₹200"],
+      "ans": 2,
+      "exp": "Under the Motor Vehicles (Amendment) Act 2019, the fine for not wearing a helmet is ₹1000."
+    },
+    {
+      "q": "Which Article of the Indian Constitution makes protecting the environment a Fundamental Duty?",
+      "opts": ["Article 21", "Article 48A", "Article 51A(g)", "Article 32"],
+      "ans": 2,
+      "exp": "Article 51A(g) says it is the duty of every citizen to protect and improve the natural environment."
+    },
+    {
+      "q": "RTI stands for?",
+      "opts": ["Right to Income", "Right to Information", "Regulation of Trade & Industry", "Right to Infrastructure"],
+      "ans": 1,
+      "exp": "RTI stands for Right to Information Act, 2005 — a powerful tool for every Indian citizen."
+    },
+    {
+      "q": "Under which law is honking near a hospital prohibited?",
+      "opts": ["CPCB Noise Rules + IPC 294", "Motor Vehicles Act only", "Pollution Control Act 1988", "Traffic Signal Act"],
+      "ans": 0,
+      "exp": "CPCB Noise Pollution Rules 2000 and IPC Section 294 together cover public nuisance including unnecessary honking."
+    },
+    {
+      "q": "The Swachh Bharat Mission was launched in which year?",
+      "opts": ["2012", "2014", "2016", "2010"],
+      "ans": 1,
+      "exp": "Swachh Bharat Mission was launched on 2nd October 2014, on Mahatma Gandhi's 145th birth anniversary."
+    },
+    {
+      "q": "Which fine applies for smoking in a public place under COTPA 2003?",
+      "opts": ["₹50", "₹100", "₹200", "₹1000"],
+      "ans": 2,
+      "exp": "Section 4 of COTPA 2003 imposes a fine of ₹200 for smoking in any public place."
+    },
+    {
+      "q": "What does the Energy Conservation Act 2001 aim to do?",
+      "opts": ["Nationalise energy companies", "Penalise energy wastage & promote efficiency", "Ban fossil fuels", "Regulate electricity tariffs"],
+      "ans": 1,
+      "exp": "The Energy Conservation Act 2001 establishes BEE and empowers it to enforce energy efficiency standards."
+    }
+  ],
+  "grades": [
+    { "minCorrect": 7, "label": "🏆 Civic Champion!" },
+    { "minCorrect": 5, "label": "🌟 Good Citizen!" },
+    { "minCorrect": 3, "label": "📚 Keep Learning!" },
+    { "minCorrect": 0, "label": "🌱 Just Getting Started!" }
+  ]
+}

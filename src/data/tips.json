@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "tag": "✅ Action Guide",
+    "title": "Be the Change — Civic Tips for Every Indian",
+    "description": "Small habits, massive impact. Here's what you CAN and CANNOT do as a responsible citizen."
+  },
+  "items": [
+    {
+      "icon": "🗑️",
+      "title": "Carry a Trash Bag",
+      "text": "Keep a small bag in your car or bag to collect wrappers, bottles and waste until you find a bin. Zero excuses to litter.",
+      "badge": "do"
+    },
+    {
+      "icon": "📸",
+      "title": "Report Violations Online",
+      "text": "Use apps like Swachhata App, FixMyStreet or your municipality's portal to report potholes, illegal dumping and broken streetlights.",
+      "badge": "do"
+    },
+    {
+      "icon": "🚦",
+      "title": "Stop at Red Lights — Always",
+      "text": "Even at 2 AM. Even when no one is watching. Traffic rules save lives — yours and others'. Plus, cameras are everywhere now.",
+      "badge": "do"
+    },
+    {
+      "icon": "💧",
+      "title": "Fix Leaking Taps",
+      "text": "A single leaking tap wastes 2,000+ litres a month. Water is a national resource. Report water leaks in public spaces immediately.",
+      "badge": "do"
+    },
+    {
+      "icon": "🔊",
+      "title": "Don't Honk Unnecessarily",
+      "text": "Honking in traffic jams doesn't make the jam disappear — it just increases collective stress, anger, and noise pollution for everyone.",
+      "badge": "dont"
+    },
+    {
+      "icon": "🚫",
+      "title": "Don't Block Footpaths",
+      "text": "Parking cars on footpaths forces pedestrians — including elderly and disabled people — onto dangerous roads. It's illegal and inconsiderate.",
+      "badge": "dont"
+    },
+    {
+      "icon": "🗳️",
+      "title": "Vote in Every Election",
+      "text": "From Panchayat to Parliament, your vote shapes the infrastructure, services and civic environment around you. Skipping is not an option.",
+      "badge": "do"
+    },
+    {
+      "icon": "♻️",
+      "title": "Segregate Your Waste",
+      "text": "Wet waste, dry waste and hazardous waste go into separate bins. It takes 10 seconds and makes recycling possible. Mixing is lazy AND harmful.",
+      "badge": "do"
+    }
+  ]
+}

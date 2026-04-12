@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "badge": "Trending in India 🔥",
+    "titleHtml": "India की <span class=\"accent\">अजीब</span> Laws &<br /><span class=\"green\">Civic Sense</span> की बातें",
+    "subtitle": "Did you know spitting on a public street is illegal in most Indian cities? Discover hilarious, shocking, and surprisingly real laws that every Indian should know — but probably doesn't.",
+    "stats": [
+      { "num": "50+", "label": "Weird Laws" },
+      { "num": "1.4B", "label": "Indians Affected" },
+      { "num": "100%", "label": "Free to Read" },
+      { "num": "📈 Viral", "label": "On Social Media" }
+    ],
+    "primaryCta": { "label": "🤣 Explore Funny Laws", "to": "/laws" },
+    "secondaryCta": { "label": "🧠 Civic Tips", "to": "/tips" }
+  },
+  "previews": {
+    "laws": 3,
+    "tips": 4,
+    "products": 3,
+    "aboutCards": 2,
+    "didYouKnow": 3
+  },
+  "quizTeaser": {
+    "tag": "🧠 Test Yourself",
+    "title": "Civic IQ Quiz",
+    "description": "How much do you really know about India's civic rules?",
+    "body": "Take the full Civic IQ Quiz on a dedicated page — 8 questions, instant feedback, and a score you can share with friends.",
+    "exploreLabel": "Explore more →",
+    "exploreTo": "/quiz"
+  },
+  "didYouKnowSection": {
+    "tag": "💡 Civic Knowledge",
+    "title": "Did You Know?"
+  }
+}

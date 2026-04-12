@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "tag": "🛒 Civic Essentials Shop",
+    "title": "Products Every Civic Citizen Should Own",
+    "description": "Small investments, big civic impact. These products help you practice what you preach — and support this website too! 🙏"
+  },
+  "affiliateNoteHtml": "⚠️ <strong>Affiliate Disclosure:</strong> This page contains affiliate links. If you purchase through these links, CivicSense may earn a small commission at no extra cost to you. This helps us keep the content free for everyone. Thank you for your support! 🙏",
+  "items": [
+    {
+      "imgBg": "bg1",
+      "emoji": "🗑️",
+      "badge": "Popular",
+      "category": "Swachh Bharat",
+      "name": "Reusable Trash Bag for Car",
+      "description": "Compact, waterproof car bin that hooks on headrests. No more throwing wrappers out the window! Available in 5 colours.",
+      "oldPrice": "₹499",
+      "price": "₹299",
+      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+    },
+    {
+      "imgBg": "bg2",
+      "emoji": "🌱",
+      "category": "Green India",
+      "name": "Kitchen Compost Bin",
+      "description": "Convert wet kitchen waste into compost in 30 days. Odour-free lid, 3L capacity — perfect for apartments. Save money on fertiliser too.",
+      "oldPrice": "₹899",
+      "price": "₹649",
+      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+    },
+    {
+      "imgBg": "bg3",
+      "emoji": "💧",
+      "badge": "Save Water",
+      "category": "Water Conservation",
+      "name": "Tap Aerator Set (3 pcs)",
+      "description": "Reduces water flow by 60% without reducing pressure. Easy to install, saves hundreds of litres per month per tap. Best investment ever.",
+      "oldPrice": "₹399",
+      "price": "₹199",
+      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+    },
+    {
+      "imgBg": "bg4",
+      "emoji": "♻️",
+      "category": "Waste Management",
+      "name": "3-Bin Waste Segregation Set",
+      "description": "Wet, dry, and hazardous — all sorted! Colour-coded bins with labels. Makes government-mandated waste segregation effortless at home.",
+      "oldPrice": "₹1,299",
+      "price": "₹849",
+      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+    },
+    {
+      "imgBg": "bg1",
+      "emoji": "📚",
+      "category": "Civic Education",
+      "name": "Know Your Rights – India Book",
+      "description": "A simple, jargon-free guide to RTI, consumer rights, property laws, and citizen duties. Must-have for every Indian household.",
+      "oldPrice": "₹350",
+      "price": "₹250",
+      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+    },
+    {
+      "imgBg": "bg2",
+      "emoji": "🌿",
+      "badge": "Eco Pick",
+      "category": "Eco Living",
+      "name": "Reusable Jute Shopping Bag (5 pack)",
+      "description": "Ditch plastic forever. These sturdy jute bags can carry up to 10 kg and last years. Makes you the most civic-conscious shopper in the queue.",
+      "oldPrice": "₹599",
+      "price": "₹349",
+      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Netlify: connect the site to GitHub and set Production branch to `main`.
+# Enable branch deploys for `develop` under Site settings → Build & deploy → Branches.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA: React Router client-side routes must fall back to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

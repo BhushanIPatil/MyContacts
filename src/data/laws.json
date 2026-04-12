@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "tag": "⚖️ Entertainment Zone",
+    "title": "India's Most Hilarious & Surprising Laws",
+    "descriptionHtml": "These are <strong>100% real laws</strong> — just presented entertainingly. Disclaimer: CivicSense is for awareness &amp; entertainment only, not legal advice."
+  },
+  "items": [
+    {
+      "variant": "orange",
+      "emoji": "🚶",
+      "tag": "Delhi | Streets",
+      "tagGreen": false,
+      "title": "Walking on the Wrong Side of the Road",
+      "description": "Under the Motor Vehicles Act, pedestrians must walk on the right side of the road (facing traffic). Walking on the left can technically land you a fine.",
+      "funny": "😂 Half of Delhi would be in jail if this was enforced.",
+      "source": "📘 Motor Vehicles Act, 1988"
+    },
+    {
+      "variant": "green",
+      "emoji": "🤧",
+      "tag": "Public Health | Spitting",
+      "tagGreen": true,
+      "title": "Spitting in Public is ILLEGAL",
+      "description": "The Prevention of Spitting Act exists in many states. Spitting on streets, buses, railway platforms can invite fines up to ₹200–₹500 depending on the city.",
+      "funny": "😅 But Paan-wallahs seem to be unaware of this law.",
+      "source": "📘 Municipal Acts, Various States"
+    },
+    {
+      "variant": "navy",
+      "emoji": "🔊",
+      "tag": "Noise | Neighbourhoods",
+      "tagGreen": false,
+      "title": "Honking Near Hospitals is Illegal",
+      "description": "Section 294 IPC prohibits acts that cause public annoyance. Honking near hospitals, schools and courts can result in fines under pollution control norms.",
+      "funny": "🤣 Indian roads didn't get this memo apparently.",
+      "source": "📘 IPC Section 294 + CPCB Norms"
+    },
+    {
+      "variant": "orange",
+      "emoji": "🌳",
+      "tag": "Environment | Trees",
+      "tagGreen": false,
+      "title": "Cutting a Tree Without Permission = Crime",
+      "description": "Under the Indian Forest Act and Tree Preservation Acts of various cities, cutting even a single tree without municipal approval can invite heavy fines or imprisonment.",
+      "funny": "🌿 Your neighbour who cut that neem tree owes everyone an apology.",
+      "source": "📘 Indian Forest Act, 1927"
+    },
+    {
+      "variant": "green",
+      "emoji": "🗑️",
+      "tag": "Cleanliness | SBM",
+      "tagGreen": true,
+      "title": "Littering in Public Carries Fines",
+      "description": "Swachh Bharat Mission empowers municipalities to fine individuals ₹500–₹5,000 for throwing garbage, food wrappers, or any waste on streets and public spaces.",
+      "funny": "😬 That biscuit wrapper you threw? That's ₹500 going down the drain.",
+      "source": "📘 Swachh Bharat Mission Guidelines"
+    },
+    {
+      "variant": "navy",
+      "emoji": "🚬",
+      "tag": "COTPA | Smoking",
+      "tagGreen": false,
+      "title": "Smoking in Public Places – ₹200 Fine",
+      "description": "COTPA 2003 prohibits smoking in public places including offices, restaurants, bus stops, educational institutions, healthcare facilities and more.",
+      "funny": "🚭 Even a bus stop counts as a public place under this law!",
+      "source": "📘 COTPA 2003, Section 4"
+    },
+    {
+      "variant": "orange",
+      "emoji": "💡",
+      "tag": "Electricity | Waste",
+      "tagGreen": false,
+      "title": "Wasting Electricity Can Be Penalised",
+      "description": "Energy Conservation Act 2001 allows authorities to penalise excessive energy wastage in commercial premises. Many state electricity boards have their own rules too.",
+      "funny": "💡 That tubelight you leave on 24x7 is technically a civic crime.",
+      "source": "📘 Energy Conservation Act, 2001"
+    },
+    {
+      "variant": "green",
+      "emoji": "🐄",
+      "tag": "Animals | Stray",
+      "tagGreen": true,
+      "title": "Abandoning Your Pet on the Street is Illegal",
+      "description": "Under the Prevention of Cruelty to Animals Act, abandoning a domestic animal on streets can invite fines and even imprisonment up to 3 months.",
+      "funny": "🐕 That abandoned dog on your street deserves justice!",
+      "source": "📘 PCA Act, 1960"
+    },
+    {
+      "variant": "navy",
+      "emoji": "🚗",
+      "tag": "Traffic | Parking",
+      "tagGreen": false,
+      "title": "Wrong Side Parking Blocks Ambulances — and it's Illegal",
+      "description": "Blocking fire hydrants, emergency lanes, or parking in no-parking zones invites heavy fines. In case of emergency, vehicles can be towed at owner's expense.",
+      "funny": "🚑 Your 5-minute parking may cost someone their life (and you ₹2000).",
+      "source": "📘 MVA 1988 + City Traffic Rules"
+    }
+  ]
+}
