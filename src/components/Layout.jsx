@@ -54,7 +54,7 @@ export function Layout() {
     <>
       <nav>
         <Link to="/" className="nav-logo" onClick={closeMenu}>
-          <img src={siteLogo} alt="CivicSense India" className="nav-logo-img" width="180" height="48" decoding="async" />
+          <img src={siteLogo} alt="CivicSense" className="nav-logo-img" width="180" height="48" decoding="async" />
           Civic<span>Sense</span>
         </Link>
         <ul className={`nav-links${menuOpen ? ' nav-open' : ''}`}>
@@ -141,7 +141,7 @@ export function Layout() {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link to="/" className="nav-logo footer-logo-link" onClick={closeMenu}>
-              <img src={siteLogo} alt="CivicSense India" className="nav-logo-img footer-logo-img" width="160" height="42" decoding="async" />
+              <img src={siteLogo} alt="CivicSense" className="nav-logo-img footer-logo-img" width="160" height="42" decoding="async" />
             </Link>
             <p className="footer-desc">India&apos;s most entertaining civic awareness platform. Know your laws, own your streets, and be the change this country needs.</p>
             <div className="footer-social">
@@ -224,7 +224,7 @@ export function Layout() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2026 CivicSense India. Made with 🧡 for Bharat.</p>
+          <p>© 2026 CivicSense. Made with 🧡 for Bharat.</p>
           <div className="legal">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Use</a>
