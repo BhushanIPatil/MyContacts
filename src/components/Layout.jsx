@@ -175,7 +175,9 @@ export function Layout() {
             <Link to="/" className="nav-logo footer-logo-link" onClick={closeMenu}>
               <img src={siteLogo} alt="CivicSense" className="nav-logo-img footer-logo-img" width="160" height="42" decoding="async" />
             </Link>
-            <p className="footer-desc">India&apos;s most entertaining civic awareness platform. Know your laws, own your streets, and be the change this country needs.</p>
+            <p className="footer-desc">
+              The internet&apos;s most entertaining civic awareness platform. Learn practical civic habits, discover helpful tips, and be the change your community needs.
+            </p>
             <div className="footer-social">
               {/* <a
                 href="https://x.com/"
@@ -366,7 +368,7 @@ export function Layout() {
           </div>
         </div>
         <div className="footer-bottom" style={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
-          <p>© 2026 CivicSense. Made with 🧡 for Bharat.</p>
+          <p>© 2026 CivicSense. Made with 🧡 for better communities.</p>
         </div>
         <div className="disclaimer">
           <strong>Disclaimer:</strong> CivicSense is an informational and awareness website focused on everyday civic habits and responsible living. The content provided is for general educational purposes only and should not be considered professional, legal, or official advice. While we aim to share helpful and accurate information, practices and guidelines may vary by location. Always use your own judgment and consult relevant authorities when necessary. Some links on this site may be affiliate links, which means we may earn a small commission at no additional cost to you. This does not affect our editorial independence.
