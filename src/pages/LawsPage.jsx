@@ -18,12 +18,12 @@ export function LawsPage() {
           ))}
         </div>
 
-        <div style={{ marginTop: '48px' }}>
+        {/* <div style={{ marginTop: '48px' }}>
           <div className="ad-slot" style={{ maxWidth: '970px', margin: '0 auto', minHeight: '90px' }}>
             <div className="ad-slot-label">Advertisement</div>
             <AdSenseIns style={{ display: 'block', width: '100%', minHeight: '250px' }} />
           </div>
-        </div>
+        </div> */}
 
         <p style={{ marginTop: '24px', textAlign: 'center' }} className="reveal">
           <Link to="/" className="btn-outline">

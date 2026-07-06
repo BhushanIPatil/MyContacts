@@ -47,12 +47,12 @@ export function Home() {
 
       <div className="divider" />
 
-      <div className="banner-ad" style={{ paddingTop: '40px' }}>
+      {/* <div className="banner-ad" style={{ paddingTop: '40px' }}>
         <div className="ad-slot" style={{ minHeight: '90px', maxWidth: '728px', margin: '0 auto' }}>
           <div className="ad-slot-label">Advertisement</div>
           <AdSenseIns style={{ display: 'block', width: '100%', minHeight: '90px' }} fullWidth />
         </div>
-      </div>
+      </div> */}
 
       <section id="laws">
         <div className="section-inner">
@@ -74,12 +74,12 @@ export function Home() {
             </Link>
           </div>
 
-          <div style={{ marginTop: '48px' }}>
+          {/* <div style={{ marginTop: '48px' }}>
             <div className="ad-slot" style={{ maxWidth: '970px', margin: '0 auto', minHeight: '90px' }}>
               <div className="ad-slot-label">Advertisement</div>
               <AdSenseIns style={{ display: 'block', width: '100%', minHeight: '250px' }} />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -215,12 +215,12 @@ export function Home() {
         </div>
       </section>
 
-      <div className="banner-ad">
+      {/* <div className="banner-ad">
         <div className="ad-slot" style={{ maxWidth: '970px', margin: '0 auto', minHeight: '250px' }}>
           <div className="ad-slot-label">Advertisement</div>
           <AdSenseIns style={{ display: 'block', width: '100%', minHeight: '250px' }} />
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

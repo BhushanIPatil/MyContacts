@@ -1,6 +1,13 @@
 import { useEffect, useState, useCallback } from 'react'
 import { NavLink, Link, Outlet, useLocation } from 'react-router-dom'
 import siteLogo from '../logo/CivicSense_logo.png'
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaYoutube,
+  FaWhatsapp,
+  FaXTwitter
+} from "react-icons/fa6";
 
 const PAGE_TITLES = {
   '/': 'Civic Awareness & Smart Living Guide',
@@ -113,27 +120,52 @@ export function Layout() {
 
       <section className="newsletter-section">
         <div className="section-inner" style={{ textAlign: 'center' }}>
-          <span className="section-tag" style={{ color: 'rgba(255,255,255,0.7)' }}>
-            📬 Stay Updated
+          <span
+            className="section-tag"
+            style={{ color: 'rgba(255,255,255,0.7)' }}
+          >
+            🤝 Get Involved
           </span>
-          <h2 className="section-title reveal">Get Weekly Civic Facts in Your Inbox</h2>
-          <p style={{ color: 'rgba(255,255,255,0.8)', marginBottom: '32px', fontSize: '1.05rem' }} className="reveal">
-            New laws, funny rules, civic tips and exclusive deals — delivered free every week.
+
+          <h2 className="section-title reveal">
+            Be Part of the Civic Awareness Movement
+          </h2>
+
+          <p
+            className="reveal"
+            style={{
+              color: 'rgba(255,255,255,0.8)',
+              marginBottom: '32px',
+              fontSize: '1.05rem',
+              maxWidth: '700px',
+              marginInline: 'auto'
+            }}
+          >
+            Share your knowledge, promote your organization, or get in touch with us.
+            Every contribution helps build a more informed and responsible community.
           </p>
-          <div className="newsletter-form reveal">
-            <input
-              className="newsletter-input"
-              type="email"
-              placeholder="your@email.com"
-              value={nlEmail}
-              onChange={(e) => setNlEmail(e.target.value)}
-            />
-            <button type="button" className="btn-subscribe" onClick={subscribe}>
-              Subscribe Free 🚀
-            </button>
+
+          <div
+            className="reveal"
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              gap: '16px',
+              flexWrap: 'wrap'
+            }}
+          >
+            <Link to="/submit-your-article" className="btn-outline">
+              📝 Submit an Article
+            </Link>
+
+            <Link to="/advertise" className="btn-outline">
+              📢 Advertise
+            </Link>
+
+            <Link to="/contact" className="btn-outline">
+              📩 Contact Us
+            </Link>
           </div>
-          <p className="newsletter-note reveal">No spam. Unsubscribe anytime. Join 12,000+ civic-minded Indians.</p>
-          <div style={{ marginTop: '12px', fontWeight: 700, fontSize: '1rem', color: nlMsg.color }}>{nlMsg.text}</div>
         </div>
       </section>
 
@@ -145,21 +177,120 @@ export function Layout() {
             </Link>
             <p className="footer-desc">India&apos;s most entertaining civic awareness platform. Know your laws, own your streets, and be the change this country needs.</p>
             <div className="footer-social">
-              <a href="https://twitter.com/" target="_blank" rel="noreferrer" className="social-btn" title="Twitter">
-                𝕏
+              {/* <a
+                href="https://x.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="social-btn"
+                title="X (Twitter)"
+                aria-label="X"
+              >
+                <span
+                  style={{
+                    background: "#fff",
+                    width: 34,
+                    height: 34,
+                    borderRadius: "50%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
+                >
+                  <FaXTwitter color="#000000" />
+                </span>
+              </a> */}
+
+              <a
+                href="https://www.instagram.com/civicsensebasic?igsh=MW94OWlua3dxN3Ftdg=="
+                target="_blank"
+                rel="noreferrer"
+                className="social-btn"
+                title="Instagram"
+                aria-label="Instagram"
+              >
+                <span
+                  style={{
+                    background: "#fff",
+                    width: 34,
+                    height: 34,
+                    borderRadius: "50%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
+                >
+                  <FaInstagram color="#E4405F" />
+                </span>
               </a>
-              <a href="https://instagram.com/" target="_blank" rel="noreferrer" className="social-btn" title="Instagram">
-                📸
+
+              {/* <a
+                href="https://facebook.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="social-btn"
+                title="Facebook"
+                aria-label="Facebook"
+              >
+                <span
+                  style={{
+                    background: "#fff",
+                    width: 34,
+                    height: 34,
+                    borderRadius: "50%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
+                >
+                  <FaFacebookF color="#1877F2" />
+                </span>
               </a>
-              <a href="https://facebook.com/" target="_blank" rel="noreferrer" className="social-btn" title="Facebook">
-                f
+
+              <a
+                href="https://youtube.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="social-btn"
+                title="YouTube"
+                aria-label="YouTube"
+              >
+                <span
+                  style={{
+                    background: "#fff",
+                    width: 34,
+                    height: 34,
+                    borderRadius: "50%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
+                >
+                  <FaYoutube color="#FF0000" />
+                </span>
               </a>
-              <a href="https://youtube.com/" target="_blank" rel="noreferrer" className="social-btn" title="YouTube">
-                ▶
-              </a>
-              <a href="https://wa.me/" target="_blank" rel="noreferrer" className="social-btn" title="WhatsApp">
-                💬
-              </a>
+
+              <a
+                href="https://wa.me/"
+                target="_blank"
+                rel="noreferrer"
+                className="social-btn"
+                title="WhatsApp"
+                aria-label="WhatsApp"
+              >
+                <span
+                  style={{
+                    background: "#fff",
+                    width: 34,
+                    height: 34,
+                    borderRadius: "50%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
+                >
+                  <FaWhatsapp color="#25D366" />
+                </span>
+              </a> */}
             </div>
           </div>
           <div className="footer-col">
@@ -173,9 +304,6 @@ export function Layout() {
               </li>
               <li>
                 <Link to="/quiz">Quiz</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
               </li>
               <li>
                 <Link to="/shop">Civic Shop</Link>
@@ -234,20 +362,11 @@ export function Layout() {
               <li>
                 <a href="/advertise">Advertise</a>
               </li>
-              <li>
-                <a href="mailto:bhushanpatil8551@gmail.com">bhushanpatil8551@gmail.com</a>
-              </li>
             </ul>
           </div>
         </div>
-        <div className="footer-bottom">
+        <div className="footer-bottom" style={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
           <p>© 2026 CivicSense. Made with 🧡 for Bharat.</p>
-          <div className="legal">
-            <a href="/privacy-policy">Privacy Policy</a>
-            <a href="/terms-of-use">Terms of Use</a>
-            <a href="/affiliate-disclosure">Affiliate Disclosure</a>
-            <a href="/disclaimer">Disclaimer</a>
-          </div>
         </div>
         <div className="disclaimer">
           <strong>Disclaimer:</strong> CivicSense is an informational and awareness website focused on everyday civic habits and responsible living. The content provided is for general educational purposes only and should not be considered professional, legal, or official advice. While we aim to share helpful and accurate information, practices and guidelines may vary by location. Always use your own judgment and consult relevant authorities when necessary. Some links on this site may be affiliate links, which means we may earn a small commission at no additional cost to you. This does not affect our editorial independence.

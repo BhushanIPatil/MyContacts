@@ -2,72 +2,174 @@
   "meta": {
     "tag": "🛒 Civic Essentials Shop",
     "title": "Shop",
-    "description": "Small investments, big civic impact. These products help you practice what you preach — and support this website too! 🙏"
+    "description": "Small investments, big civic impact. These handpicked products help you build better civic habits while supporting CivicSense at no extra cost. 🙏"
   },
   "affiliateNoteHtml": "⚠️ <strong>Affiliate Disclosure:</strong> This page contains affiliate links. If you purchase through these links, CivicSense may earn a small commission at no extra cost to you. This helps us keep the content free for everyone. Thank you for your support! 🙏",
   "items": [
     {
       "imgBg": "bg1",
       "emoji": "🗑️",
-      "badge": "Popular",
-      "category": "Swachh Bharat",
-      "name": "Reusable Trash Bag for Car",
-      "description": "Compact, waterproof car bin that hooks on headrests. No more throwing wrappers out the window! Available in 5 colours.",
-      "oldPrice": "₹499",
-      "price": "₹299",
-      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+      "badge": "Best Seller",
+      "category": "Clean India",
+      "name": "Eco-Friendly Large Garbage Bags",
+      "description": "Because your dustbin deserves better than tiny bags that surrender halfway. Strong, leak-proof, and ready for every cleanup adventure. Click to see why they're everyone's cleaning companion!",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4vgGy3L",
+      "buyUrl": "https://amzn.to/4vgGy3L"
     },
     {
       "imgBg": "bg2",
-      "emoji": "🌱",
-      "category": "Green India",
-      "name": "Kitchen Compost Bin",
-      "description": "Convert wet kitchen waste into compost in 30 days. Odour-free lid, 3L capacity — perfect for apartments. Save money on fertiliser too.",
-      "oldPrice": "₹899",
-      "price": "₹649",
-      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+      "emoji": "🚗",
+      "badge": "Car Essential",
+      "category": "Clean Drive",
+      "name": "Car Dustbin",
+      "description": "Wrappers belong in a bin, not under your seat! Keep your car clean, your passengers happy, and your future self thankful. One click might save hours of cleaning.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4ydiW2L",
+      "buyUrl": "https://amzn.to/4ydiW2L"
     },
     {
       "imgBg": "bg3",
-      "emoji": "💧",
-      "badge": "Save Water",
-      "category": "Water Conservation",
-      "name": "Tap Aerator Set (3 pcs)",
-      "description": "Reduces water flow by 60% without reducing pressure. Easy to install, saves hundreds of litres per month per tap. Best investment ever.",
-      "oldPrice": "₹399",
-      "price": "₹199",
-      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+      "emoji": "🍰",
+      "badge": "Home Pick",
+      "category": "Kitchen Essentials",
+      "name": "Premium Bakeware",
+      "description": "Okay... this one won't improve civic sense, but happy bakers make happy neighbors! Bake something delicious and become the favorite house on the street.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/3Rgnpkq",
+      "buyUrl": "https://amzn.to/3Rgnpkq"
     },
     {
       "imgBg": "bg4",
-      "emoji": "♻️",
+      "emoji": "🦶",
+      "badge": "Highly Rated",
       "category": "Waste Management",
-      "name": "3-Bin Waste Segregation Set",
-      "description": "Wet, dry, and hazardous — all sorted! Colour-coded bins with labels. Makes government-mandated waste segregation effortless at home.",
-      "oldPrice": "₹1,299",
-      "price": "₹849",
-      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+      "name": "Heavy Duty Rustproof Pedal Dustbin",
+      "description": "Touch less. Stay cleaner. This sturdy pedal dustbin keeps your hands germ-free and your home looking neat. Your kitchen will thank you every single day.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4vReWTY",
+      "buyUrl": "https://amzn.to/4vReWTY"
     },
     {
       "imgBg": "bg1",
-      "emoji": "📚",
-      "category": "Civic Education",
-      "name": "Know Your Rights – India Book",
-      "description": "A simple, jargon-free guide to RTI, consumer rights, property laws, and citizen duties. Must-have for every Indian household.",
-      "oldPrice": "₹350",
-      "price": "₹250",
-      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+      "emoji": "🦾",
+      "badge": "Smart Tool",
+      "category": "Public Cleanliness",
+      "name": "Sharpex Effortless Picking Tool",
+      "description": "Pick up litter without bending, stretching, or saying 'someone else will do it.' Perfect for community cleanups and everyday heroes. Click and discover your new superpower!",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4fkSNaB",
+      "buyUrl": "https://amzn.to/4fkSNaB"
     },
     {
       "imgBg": "bg2",
-      "emoji": "🌿",
-      "badge": "Eco Pick",
-      "category": "Eco Living",
-      "name": "Reusable Jute Shopping Bag (5 pack)",
-      "description": "Ditch plastic forever. These sturdy jute bags can carry up to 10 kg and last years. Makes you the most civic-conscious shopper in the queue.",
-      "oldPrice": "₹599",
-      "price": "₹349",
-      "buyUrl": "https://amzn.to/AFFILIATE_LINK_HERE"
+      "emoji": "⛑️",
+      "badge": "Ride Safe",
+      "category": "Road Safety",
+      "name": "Vega Helmet",
+      "description": "Your destination is important, but getting there safely is even more important. Protect your head and ride with confidence every single day.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4eUNgpS",
+      "buyUrl": "https://amzn.to/4eUNgpS"
+    },
+    {
+      "imgBg": "bg3",
+      "emoji": "🕶️",
+      "badge": "Summer Pick",
+      "category": "Sun Protection",
+      "name": "Sun Protection Hat",
+      "description": "Beat the heat without sacrificing style. Whether you're walking, cycling, or volunteering outdoors, let the sun worry about itself.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4eNIBr8",
+      "buyUrl": "https://amzn.to/4eNIBr8"
+    },
+    {
+      "imgBg": "bg1",
+      "emoji": "💪",
+      "badge": "Outdoor Essential",
+      "category": "UV Protection",
+      "name": "Boldfit UV Protection Arm Sleeves",
+      "description": "Because sunscreen shouldn't have to do all the work! Stay cool, protected, and comfortable during every outdoor activity.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4eZ2rOG",
+      "buyUrl": "https://amzn.to/4eZ2rOG"
+    },
+    {
+      "imgBg": "bg4",
+      "emoji": "🎒",
+      "badge": "Travel Ready",
+      "category": "Everyday Essentials",
+      "name": "Multipurpose Travel Backpack",
+      "description": "From office to college to weekend adventures, this backpack carries everything except your excuses for being late.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4viVsWZ",
+      "buyUrl": "https://amzn.to/4viVsWZ"
+    },
+    {
+      "imgBg": "bg2",
+      "emoji": "🧤",
+      "badge": "Ride Comfort",
+      "category": "Bike Safety",
+      "name": "Premium Bike Riding Gloves",
+      "description": "Better grip, better comfort, and better control. Your hands deserve protection just as much as your head.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4gGns3x",
+      "buyUrl": "https://amzn.to/4gGns3x"
+    },
+    {
+      "imgBg": "bg3",
+      "emoji": "🏍️",
+      "badge": "Premium Choice",
+      "category": "Road Safety",
+      "name": "Axor Helmet",
+      "description": "Adventure begins when safety comes first. Ride farther, explore more, and let your helmet handle the unexpected.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4vkFhbT",
+      "buyUrl": "https://amzn.to/4vkFhbT"
+    },
+    {
+      "imgBg": "bg1",
+      "emoji": "🚲",
+      "badge": "Night Safety",
+      "category": "Cycling",
+      "name": "LED Bicycle Light & Horn Set",
+      "description": "Be bright. Be loud. Be seen. Make every night ride safer with powerful front and rear lights plus an integrated horn.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4v7Bcrj",
+      "buyUrl": "https://amzn.to/4v7Bcrj"
+    },
+    {
+      "imgBg": "bg4",
+      "emoji": "🦺",
+      "badge": "Highly Visible",
+      "category": "Safety Gear",
+      "name": "Reflective Safety Jacket",
+      "description": "Whether you're on a construction site, directing traffic, or cycling after dark, being visible is the smartest safety feature.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4fjC4V3",
+      "buyUrl": "https://amzn.to/4fjC4V3"
+    },
+    {
+      "imgBg": "bg2",
+      "emoji": "🧯",
+      "badge": "Emergency Ready",
+      "category": "Home Safety",
+      "name": "Fire Extinguisher",
+      "description": "Hope you never need it—but you'll be glad it's there if you do. A small investment that can protect your family and property.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4w665xX",
+      "buyUrl": "https://amzn.to/4w665xX"
+    },
+    {
+      "imgBg": "bg3",
+      "emoji": "📹",
+      "badge": "Smart Security",
+      "category": "Home Protection",
+      "name": "CP PLUS Smart Wi-Fi Security Camera",
+      "description": "Keep an eye on your home from anywhere. Smart surveillance gives you peace of mind whether you're at work or on vacation.",
+      "amazonText": "View on Amazon",
+      "amazonUrl": "https://amzn.to/4axuzr6",
+      "buyUrl": "https://amzn.to/4axuzr6"
     }
   ]
 }

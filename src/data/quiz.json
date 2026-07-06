@@ -92,6 +92,28 @@
       ],
       "ans": 1,
       "exp": "Being kind and responsible towards animals reflects strong civic awareness."
+    },
+    {
+      "q": "What should you do when you see a zebra crossing?",
+      "opts": [
+        "Speed up to cross first",
+        "Ignore pedestrians",
+        "Slow down and give pedestrians the right of way",
+        "Park your vehicle on it"
+      ],
+      "ans": 2,
+      "exp": "Zebra crossings are designated for pedestrians. Slowing down and allowing them to cross safely is a responsible civic habit."
+    },
+    {
+      "q": "Why is it important to segregate household waste?",
+      "opts": [
+        "It takes more time",
+        "It helps recycling and proper waste management",
+        "It has no environmental benefit",
+        "It is only useful for large cities"
+      ],
+      "ans": 1,
+      "exp": "Separating wet, dry, and recyclable waste makes recycling easier, reduces landfill waste, and keeps the environment cleaner."
     }
   ],
   "grades": [
