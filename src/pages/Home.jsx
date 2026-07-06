@@ -194,11 +194,23 @@ export function Home() {
                   <div className="product-category">{item.category}</div>
                   <div className="product-name">{item.name}</div>
                   <div className="product-desc">{item.description}</div>
+
                   <div className="product-footer">
-                    <div className="product-price">
-                      <span className="old">{item.oldPrice}</span> {item.price}
-                    </div>
-                    <a href={item.buyUrl} target="_blank" rel="noopener nofollow" className="btn-buy">
+                    <a
+                      href={item.amazonUrl}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="amazon-link"
+                    >
+                      {item.amazonText}
+                    </a>
+
+                    <a
+                      href={item.buyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="btn-buy"
+                    >
                       Buy Now →
                     </a>
                   </div>

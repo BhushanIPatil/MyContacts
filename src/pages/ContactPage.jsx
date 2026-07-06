@@ -12,8 +12,24 @@ export function ContactPage() {
           Have a question, suggestion, or found an issue on our website? We'd love to hear from you. Fill out the form below, and we'll get back to you as soon as possible.
         </p>
 
-        <div className="google-form reveal">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQQSsPEVVdzqnsi6Nwt1E8rs29QTsVNkbge-JopxhfKk2T6Q/viewform?embedded=true" width="640" height="855" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <div 
+          className="google-form reveal"
+          style={{
+            width: "100%",
+            maxWidth: "640px",
+            margin: "0 auto"
+          }}
+        >
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQQSsPEVVdzqnsi6Nwt1E8rs29QTsVNkbge-JopxhfKk2T6Q/viewform?embedded=true" width="640" height="855" frameborder="0" marginheight="0" marginwidth="0"
+            style={{
+              width: "100%",
+              height: "1291px",
+              border: "none",
+              display: "block"
+            }}
+          >
+            Loading…
+          </iframe>
         </div>
 
         <p style={{ marginTop: '32px', textAlign: 'center' }} className="reveal">

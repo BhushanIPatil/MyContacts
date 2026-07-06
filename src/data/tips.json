@@ -52,6 +52,12 @@
       "title": "Segregate Your Waste",
       "text": "Wet waste, dry waste and hazardous waste go into separate bins. It takes 10 seconds and makes recycling possible. Mixing is lazy AND harmful.",
       "badge": "do"
+    },
+    {
+      "icon": "🚶",
+      "title": "Use Zebra Crossings",
+      "text": "Cross the road only at zebra crossings or designated pedestrian crossings whenever possible. It keeps you safe, improves traffic flow, and encourages drivers to respect pedestrian rights.",
+      "badge": "do"
     }
   ]
 }
