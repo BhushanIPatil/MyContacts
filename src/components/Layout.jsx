@@ -182,7 +182,7 @@ export function Layout() {
               </li>
             </ul>
           </div>
-          <div className="footer-col">
+          {/* <div className="footer-col">
             <h4>Legal Info</h4>
             <ul>
               <li>
@@ -201,24 +201,41 @@ export function Layout() {
                 <Link to="/laws">Noise Rules</Link>
               </li>
             </ul>
+          </div> */}
+          <div className="footer-col">
+            <h4>Legal Info</h4>
+            <ul>
+              <li>
+                <a href="/privacy-policy">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="/terms-of-use">Terms of Use</a>
+              </li>
+              <li>
+                <a href="/affiliate-disclosure">Affiliate Disclosure</a>
+              </li>
+              <li>
+                <a href="/disclaimer">Disclaimer</a>
+              </li>
+            </ul>
           </div>
           <div className="footer-col">
             <h4>Company</h4>
             <ul>
               <li>
-                <a href="#">About Us</a>
+                <a href="/about">About Us</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
               <li>
-                <a href="#">Write for Us</a>
+                <a href="/submit-your-article">Write for Us</a>
               </li>
               <li>
-                <a href="#">Advertise</a>
+                <a href="/advertise">Advertise</a>
               </li>
               <li>
-                <a href="mailto:hello@civicsense.com">hello@civicsense.com</a>
+                <a href="mailto:bhushanpatil8551@gmail.com">bhushanpatil8551@gmail.com</a>
               </li>
             </ul>
           </div>
@@ -226,10 +243,10 @@ export function Layout() {
         <div className="footer-bottom">
           <p>© 2026 CivicSense. Made with 🧡 for Bharat.</p>
           <div className="legal">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
-            <a href="#">Affiliate Disclosure</a>
-            <a href="#">Disclaimer</a>
+            <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/terms-of-use">Terms of Use</a>
+            <a href="/affiliate-disclosure">Affiliate Disclosure</a>
+            <a href="/disclaimer">Disclaimer</a>
           </div>
         </div>
         <div className="disclaimer">

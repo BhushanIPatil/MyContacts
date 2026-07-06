@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "tag": "💼 Affiliate Disclosure",
+    "title": "Affiliate Disclosure",
+    "description": "Transparency is important to us. This page explains how affiliate links may be used on Civic Awareness."
+  },
+  "cards": [
+    {
+      "variant": "v1",
+      "icon": "🤝",
+      "title": "Affiliate Relationships",
+      "text": "Some links on this website may be affiliate links. If you purchase through those links, we may earn a small commission at no additional cost to you."
+    },
+    {
+      "variant": "v2",
+      "icon": "💰",
+      "title": "No Extra Cost",
+      "text": "Affiliate commissions do not affect the price you pay. They help support the operation and maintenance of this educational website."
+    },
+    {
+      "variant": "v3",
+      "icon": "⭐",
+      "title": "Honest Recommendations",
+      "text": "We only recommend products or services that we believe may provide value to our readers. Our opinions remain independent and unbiased."
+    },
+    {
+      "variant": "v4",
+      "icon": "📢",
+      "title": "Transparency",
+      "text": "Whenever affiliate links are used, we strive to disclose them clearly so visitors can make informed decisions."
+    }
+  ]
+}

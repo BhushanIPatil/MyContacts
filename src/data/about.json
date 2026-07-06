@@ -1,41 +1,41 @@
 {
   "meta": {
-    "tag": "🌍 Share & Spread",
-    "title": "About",
-    "description": "Share these ideas and help build better civic habits and responsible communities everywhere."
+    "tag": "🌍 About Civic Awareness",
+    "title": "About Us",
+    "description": "Civic Awareness is an educational platform dedicated to helping people understand civic responsibilities, environmental care, public safety, and positive community values through simple, reliable, and easy-to-understand content."
   },
   "cards": [
     {
       "variant": "v1",
-      "icon": "🤝",
-      "title": "Civic Sense = Respect",
-      "text": "Civic sense isn't about rules — it's about respecting others and keeping shared spaces clean, safe, and peaceful.",
-      "shareLabel": "🐦 Tweet This",
-      "shareUrl": "https://twitter.com/intent/tweet?text=Civic+Sense+is+Respect+%23CivicAwareness+%23BetterLiving&url=https://civicsense.com"
+      "icon": "🎯",
+      "title": "Our Mission",
+      "text": "Our mission is to promote responsible citizenship by sharing practical knowledge and everyday habits that help build cleaner, safer, and more respectful communities.",
+      "shareLabel": "🏠 Back to Home",
+      "shareUrl": "/"
     },
     {
       "variant": "v2",
-      "icon": "🌿",
-      "title": "Small Actions Matter",
-      "text": "Plant a tree, reduce waste, keep your surroundings clean. Small everyday actions can create a big positive impact over time.",
-      "shareLabel": "📸 Share on Instagram",
-      "shareUrl": "https://www.instagram.com/"
+      "icon": "📚",
+      "title": "What We Share",
+      "text": "We publish educational content on civic responsibilities, public cleanliness, environmental awareness, road safety, community participation, and other topics that encourage responsible living.",
+      "shareLabel": "📖 Explore Articles",
+      "shareUrl": "/"
     },
     {
       "variant": "v3",
-      "icon": "📖",
-      "title": "Awareness Creates Change",
-      "text": "Understanding everyday civic habits helps build stronger, healthier, and more responsible communities.",
-      "shareLabel": "💬 Share on WhatsApp",
-      "shareUrl": "https://wa.me/?text=Simple+civic+habits+can+create+better+communities.+Learn+more+at+civicsense.com"
+      "icon": "✔️",
+      "title": "Our Commitment",
+      "text": "We aim to provide accurate, informative, and easy-to-read content for educational purposes. Our goal is to help readers make informed decisions and contribute positively to society.",
+      "shareLabel": "🌱 Learn More",
+      "shareUrl": "/"
     },
     {
       "variant": "v4",
-      "icon": "📊",
-      "title": "Every Habit Counts",
-      "text": "Cleaner streets, less pollution, and safer environments start with simple choices we make every day.",
-      "shareLabel": "💼 Share on LinkedIn",
-      "shareUrl": "https://www.linkedin.com/"
+      "icon": "🤝",
+      "title": "Why Civic Awareness Matters",
+      "text": "Positive communities are built through everyday actions. By encouraging awareness and responsible behavior, we hope to inspire individuals to create a cleaner, healthier, and more respectful environment for everyone.",
+      "shareLabel": "💚 Join the Mission",
+      "shareUrl": "/"
     }
   ]
 }

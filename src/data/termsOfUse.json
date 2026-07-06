@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "tag": "📜 Terms of Use",
+    "title": "Terms of Use",
+    "description": "By accessing Civic Awareness, you agree to use this website responsibly and in accordance with these terms."
+  },
+  "cards": [
+    {
+      "variant": "v1",
+      "icon": "🌐",
+      "title": "Website Usage",
+      "text": "The content on Civic Awareness is provided for educational and informational purposes only. You agree to use this website lawfully and respectfully."
+    },
+    {
+      "variant": "v2",
+      "icon": "📚",
+      "title": "Content Ownership",
+      "text": "All articles, graphics, logos, and other materials published on this website are protected by applicable copyright and intellectual property laws unless otherwise stated."
+    },
+    {
+      "variant": "v3",
+      "icon": "⚠️",
+      "title": "User Responsibility",
+      "text": "Visitors are responsible for how they use the information provided on this website. We encourage readers to verify important information through official sources whenever necessary."
+    },
+    {
+      "variant": "v4",
+      "icon": "🔄",
+      "title": "Changes to Terms",
+      "text": "We may update these Terms of Use at any time. Continued use of the website after changes are published indicates acceptance of the revised terms."
+    }
+  ]
+}

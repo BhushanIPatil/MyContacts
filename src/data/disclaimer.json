@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "tag": "⚖️ Disclaimer",
+    "title": "Disclaimer",
+    "description": "The information provided on Civic Awareness is intended for general educational and informational purposes only."
+  },
+  "cards": [
+    {
+      "variant": "v1",
+      "icon": "📖",
+      "title": "Educational Purpose",
+      "text": "Our articles are created to raise civic awareness and educate readers. They should not be considered legal, professional, or official advice."
+    },
+    {
+      "variant": "v2",
+      "icon": "✔️",
+      "title": "Accuracy of Information",
+      "text": "We make every effort to keep our content accurate and up to date. However, we cannot guarantee that all information will always remain complete or current."
+    },
+    {
+      "variant": "v3",
+      "icon": "🔗",
+      "title": "External Links",
+      "text": "Our website may contain links to third-party websites. We are not responsible for the content, privacy practices, or policies of those external websites."
+    },
+    {
+      "variant": "v4",
+      "icon": "⚠️",
+      "title": "Limitation of Liability",
+      "text": "Civic Awareness is not liable for any loss or damages arising from the use of information available on this website. Users should exercise their own judgment when applying any information."
+    }
+  ]
+}

@@ -6,6 +6,13 @@ import { TipsPage } from './pages/TipsPage'
 import { QuizPage } from './pages/QuizPage'
 import { ShopPage } from './pages/ShopPage'
 import { AboutPage } from './pages/AboutPage'
+import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage'
+import { TermsOfUsePage } from './pages/TermsOfUsePage'
+import { DisclaimerPage } from './pages/DisclaimerPage'
+import { AffiliateDisclosurePage } from './pages/AffiliateDisclosurePage'
+import { SubmitYourArticle } from './pages/SubmitYourArticle'
+import { AdvertisePage } from './pages/AdvertisePage'
+import { ContactPage } from './pages/ContactPage'
 
 export default function App() {
   return (
@@ -18,6 +25,13 @@ export default function App() {
           <Route path="/quiz" element={<QuizPage />} />
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/terms-of-use" element={<TermsOfUsePage />} />
+          <Route path="/disclaimer" element={<DisclaimerPage />} />
+          <Route path="/affiliate-disclosure" element={<AffiliateDisclosurePage />} />
+          <Route path="/submit-your-article" element={<SubmitYourArticle />} />
+          <Route path="/advertise" element={<AdvertisePage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
