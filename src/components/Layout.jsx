@@ -16,6 +16,8 @@ const PAGE_TITLES = {
   '/quiz': 'Quiz',
   '/shop': 'Shop',
   '/about': 'About',
+  '/blogs': 'Blogs',
+  '/quotes': 'Quotes',
 }
 
 export function Layout() {
@@ -93,6 +95,18 @@ export function Layout() {
             <NavLink to="/about" onClick={closeMenu}
               className={({ isActive }) => isActive ? 'active' : ''}>
               About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/blogs" onClick={closeMenu}
+              className={({ isActive }) => isActive ? 'active' : ''}>
+              Blogs
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/quotes" onClick={closeMenu}
+              className={({ isActive }) => isActive ? 'active' : ''}>
+              Quotes
             </NavLink>
           </li>
         </ul>
@@ -309,6 +323,12 @@ export function Layout() {
               </li>
               <li>
                 <Link to="/shop">Civic Shop</Link>
+              </li>
+              <li>
+                <Link to="/blogs">Blogs</Link>
+              </li>
+              <li>
+                <Link to="/quotes">Quotes</Link>
               </li>
             </ul>
           </div>

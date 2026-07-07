@@ -17,7 +17,9 @@
     "tips": 3,
     "products": 3,
     "aboutCards": 2,
-    "didYouKnow": 3
+    "didYouKnow": 3,
+    "blogs": 3,
+    "quotes": 3
   },
   "quizTeaser": {
     "title": "Quiz",

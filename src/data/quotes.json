@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "tag": "💬 Daily Inspiration",
+    "title": "Inspirational Quotes",
+    "description": "Simple quotes that inspire responsible living, kindness, and civic awareness."
+  },
+  "items": [
+    {
+      "text": "Good citizens don't wait for change—they create it.",
+      "author": "CivicSense"
+    },
+    {
+      "text": "Respect for public spaces begins with personal responsibility.",
+      "author": "CivicSense"
+    },
+    {
+      "text": "Every wrapper picked up is one step toward a cleaner world.",
+      "author": "CivicSense"
+    },
+    {
+      "text": "Small civic habits build strong communities.",
+      "author": "CivicSense"
+    },
+    {
+      "text": "Be the reason your neighborhood feels welcoming.",
+      "author": "CivicSense"
+    }
+  ]
+}

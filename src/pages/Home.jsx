@@ -7,6 +7,9 @@ import aboutData from '../data/about.json'
 import dykData from '../data/didYouKnow.json'
 import { AdSenseIns } from '../components/AdSenseIns'
 import { LawCard } from '../components/LawCard'
+import blogsData from '../data/blogs.json'
+import quotesData from '../data/quotes.json'
+import { useState } from "react";
 
 export function Home() {
   const p = homeData.previews
@@ -15,6 +18,9 @@ export function Home() {
   const productsPreview = productsData.items.slice(0, p.products)
   const aboutPreview = aboutData.cards.slice(0, p.aboutCards)
   const dykPreview = dykData.items.slice(0, p.didYouKnow)
+  const latestBlog = blogsData.items[0];
+  const quotesPreview = quotesData.items.slice(0, p.quotes)
+  const [showFullBlog, setShowFullBlog] = useState(false);
 
   return (
     <>
@@ -41,6 +47,92 @@ export function Home() {
                 <div className="stat-label">{s.label}</div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <div className="divider" />
+
+      <section className="blog-feature-section">
+        <div className="section-inner">
+          <span className="section-tag">
+            📚 Latest Article
+          </span>
+          <h2 className="section-title">
+            Today's Featured Blog
+          </h2>
+          <div className="featured-blog-card reveal">
+            <img
+              src={latestBlog.image}
+              alt={latestBlog.title}
+              className="featured-blog-image"
+            />
+            <div className="featured-blog-body">
+              <div className="featured-blog-category">
+                {latestBlog.category}
+              </div>
+              <h3 className="featured-blog-title">
+                {latestBlog.title}
+              </h3>
+              <div className="featured-blog-meta">
+                {latestBlog.date} • {latestBlog.readTime}
+              </div>
+              <p className="featured-blog-preview">
+                {showFullBlog
+                  ? latestBlog.description
+                  : latestBlog.description.length > 350
+                    ? latestBlog.description.substring(0, 350) + "..."
+                    : latestBlog.description}
+              </p>
+              <div className="featured-blog-actions">
+                <button
+                  className="btn-primary blog-btn"
+                  onClick={() => setShowFullBlog(!showFullBlog)}
+                >
+                  {showFullBlog ? "Show Less ↑" : "Read More →"}
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="section-explore-wrap">
+            <Link
+              to="/blogs"
+              className="btn-primary"
+            >
+              View More Blogs →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <div className="divider" />
+
+      <section className="quote-section">
+        <div className="section-inner">
+          <span className="section-tag">
+            💬 Daily Inspiration
+          </span>
+          <h2 className="section-title">
+            Quote of the Day
+          </h2>
+          <div className="quote-card reveal">
+            <div className="quote-icon">
+              ❝
+            </div>
+            <p className="quote-text">
+              "The smallest act of responsibility today creates a better community tomorrow."
+            </p>
+            <div className="quote-author">
+              — CivicSense
+            </div>
+          </div>
+          <div className="section-explore-wrap">
+            <Link
+              to="/quotes"
+              className="btn-primary"
+            >
+              View More Quotes →
+            </Link>
           </div>
         </div>
       </section>

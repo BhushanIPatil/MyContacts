@@ -13,6 +13,8 @@ import { AffiliateDisclosurePage } from './pages/AffiliateDisclosurePage'
 import { SubmitYourArticle } from './pages/SubmitYourArticle'
 import { AdvertisePage } from './pages/AdvertisePage'
 import { ContactPage } from './pages/ContactPage'
+import { Blogs } from './pages/Blogs'
+import { Quotes } from './pages/Quotes'
 
 export default function App() {
   return (
@@ -32,6 +34,8 @@ export default function App() {
           <Route path="/submit-your-article" element={<SubmitYourArticle />} />
           <Route path="/advertise" element={<AdvertisePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/quotes" element={<Quotes />} />
         </Route>
       </Routes>
     </BrowserRouter>

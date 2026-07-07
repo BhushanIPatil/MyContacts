@@ -13,9 +13,9 @@ export function AboutPage() {
               <div className="viral-icon">{card.icon}</div>
               <div className="viral-title">{card.title}</div>
               <div className="viral-text">{card.text}</div>
-              <a href={card.shareUrl} target="_blank" rel="noreferrer" className="viral-share-btn">
+              {/* <a href={card.shareUrl} target="_blank" rel="noreferrer" className="viral-share-btn">
                 {card.shareLabel}
-              </a>
+              </a> */}
             </div>
           ))}
         </div>
